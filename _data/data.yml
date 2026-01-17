@@ -3,8 +3,8 @@
 #
 
 sidebar:
-  position: right # position of the sidebar : left or right
-  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  position: left # position of the sidebar : left or right
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
   education: True # set to False if you want education in main section instead of in sidebar
 
   # Profile information
@@ -18,7 +18,33 @@ sidebar:
   timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
   citizenship:
   website: https://hk-bruc1.github.io # Include the full website URL, including "http://" or "https://".
-  github: https://github.com/HK-bruc1
+  linkedin:
+  xing:
+  github: HK-bruc1
+  telegram: # add your nickname without '@' sign
+  gitlab:
+  bitbucket:
+  bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
+  twitter: '@jekyllrb'
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+  codewars:
+  goodreads: # Number-Username, e.g. 123456-alandoe
+  mastodon: # Please include your full Mastodon link here.
+  hackerrank: # Please provide your HackerRank username.
+  leetcode: # Please provide your LeetCode username.
+  pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
+
+  languages:
+    title:
+    info:
+    - idiom:
+      level:
+
+    - idiom:
+      level:
+
+    - idiom:
+      level:
 
   interests:
     title: 兴趣爱好
@@ -32,31 +58,54 @@ sidebar:
     - item: 接触新技术新热点
       link:
 
+
+career-profile:
+  title:
+  summary:
+
 education:
   title: 教育经历
   info:
-    - degree: 数据科学与大数据技术 本科
-      university: 湖南信息学院
-      time: 2020 - 2024
+  - degree: 数据科学与大数据技术 本科
+    university: 湖南信息学院
+    time: 2020 - 2024
+    details:
+
+  - degree:
+    university:
+    time:
+    details:
 
 experiences:
   title: 工作经历
   info:
-    - role: 资深全栈工程师 / 技术负责人
-      time: 2021.10 - 至今
-      company: 某互联网科技公司（A轮）
-      details: |
-        负责核心业务中台与用户增长相关产品线的架构设计与开发
-        • 主导技术栈从 Vue2 → Vue3 + Vite + TS 的全面升级，性能提升约40%
-        • 设计并落地了公司首个 BFF 层，解耦前端与多后端服务
-        • 带领5人小组完成3个中大型项目，按时交付率100%
-    - role: 前端开发工程师
-      time: 2019.07 - 2021.09
-      company: 字节跳动 - 飞书前端团队
-      details: |
-        参与飞书文档与多维表格核心功能的迭代开发
-        • 负责富文本编辑器性能优化与插件体系建设
-        • 主导协同编辑 OT 算法落地与稳定性提升项目
+  - role: 蓝牙耳机固件开发工程师
+    time: 2024.6 - 至今
+    company: 深圳鼎合丰科技有限公司
+    details: |
+      Describe your role here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+      Cum sociis natoque penatibus et magnis dis parturient montes,
+      nascetur ridiculus mus. Donec quam felis, ultricies nec,
+      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+      error sit voluptatem accusantium doloremque laudantium, totam rem
+      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+      architecto beatae vitae dicta sunt explicabo.
+        - Bullet point
+        - Bullet point
+
+certifications:
+  title:
+  list:
+  - name:
+    start:
+    end:
+    organization:
+    credentialid:
+    credentialurl:
+    credentialname:
+    details:
 
 projects:
   title: 项目经验
@@ -88,4 +137,4 @@ skills:
       level: 90%
 
 footer: >
-  使用 <i class="fas fa-heart"></i> 与 <a href="https://github.com/xiaoyingriley/devcard" target="_blank">DevCard</a> 主题构建
+  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
