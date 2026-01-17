@@ -59,9 +59,18 @@ sidebar:
       link:
 
 
-#career-profile:
-  #title:
-  #summary:
+career-profile:
+  title: 專業概述
+  summary: |
+    藍牙音頻固件工程師｜5年+嵌入式開發經驗
+    
+    • 精通 C語言（記憶體佈局、原子操作、中斷處理、代碼優化）
+    • FreeRTOS / RT-Thread 多任務實務經驗（任務優先級、堆疊分析、死鎖排查）
+    • Zephyr 藍牙子系統開發經驗（LE Audio、LC3、A2DP、AVRCP）
+    • 熟悉硬體除錯工具：示波器、邏輯分析儀、JTAG/SWD 調試
+    • 具備完整藍牙產品從立項到量產經驗
+
+    擅長從系統層面分析與解決複雜的時序、功耗、相容性問題。
 
 education:
   title: 教育经历
@@ -107,17 +116,17 @@ projects:
       link: https://zustand-guide.zhangwei.dev
       tagline: 目前中文社区最受欢迎的中文 Zustand 使用指南之一（3.2k+ star）
 
-certifications:
-  title: 技能
-  list:
-  - name:
+#certifications:
+  #title: 技能
+  #list:
+  #- name:
     #start:
     #end:
     #organization:
     #credentialid:
     #credentialurl:
-    credentialname: C语言
-    details: 内存布局
+    #credentialname: C语言
+    #details: 内存布局
 
 skills:
   title:
