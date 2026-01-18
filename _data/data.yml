@@ -60,17 +60,19 @@ sidebar:
 
 
 career-profile:
-  title: 專業概述
+  title: 技能
   summary: |
-    藍牙音頻固件工程師｜5年+嵌入式開發經驗
-    
-    • 精通 C語言（記憶體佈局、原子操作、中斷處理、代碼優化）
-    • FreeRTOS / RT-Thread 多任務實務經驗（任務優先級、堆疊分析、死鎖排查）
-    • Zephyr 藍牙子系統開發經驗（LE Audio、LC3、A2DP、AVRCP）
-    • 熟悉硬體除錯工具：示波器、邏輯分析儀、JTAG/SWD 調試
-    • 具備完整藍牙產品從立項到量產經驗
-
-    擅長從系統層面分析與解決複雜的時序、功耗、相容性問題。
+    - 熟悉ESP32平台的开发流程与应用
+    - 熟悉ARM Cortex-M3/M4系列架构,掌握STM32开发,熟练使用HAL库及寄存器开发
+    - 熟悉FreeRTOS的移植,裁剪和多任务管理
+    - 熟练使用zephyr操作系统进行应用开发
+    - 了解信号量、互斥量、事件组、队列等同步机制
+    - 熟悉常用外设:定时器、PWM、ADC、看门狗的原理以及应用
+    - 熟悉常用通信协议:UART、RS232、RS485、I2C、SPI、CAN
+    - 熟练使用Keil5、VSCode、Source Insight、STM32CubeMX、Git版本控制工具
+    - 熟练使用Vibe Coding进行AI编程提升效率
+    - 熟练使用示波器以及逻辑分析仪进行调试,可以使用烙铁进行基础的焊接
+    - 熟练查阅芯片数据手册、参考手册及相关文档,了解数字电路和模拟电路基础知识
 
 education:
   title: 教育经历
@@ -80,41 +82,34 @@ education:
     time: 2020 - 2024
     details:
 
-  - degree:
-    university:
-    time:
-    details:
+  #- degree:
+    #university:
+    #time:
+    #details:
 
 experiences:
   title: 工作经历
   info:
-  - role: 蓝牙耳机固件开发工程师
+  - role: 深圳鼎合丰科技有限公司
     time: 2024.6 - 至今
-    company: 深圳鼎合丰科技有限公司
+    company: 蓝牙耳机固件开发工程师
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-      error sit voluptatem accusantium doloremque laudantium, totam rem
-      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      architecto beatae vitae dicta sunt explicabo.
-        - Bullet point
-        - Bullet point
+        - 主要负责各类蓝牙耳机的固件开发工作。
+        - 深度参与构建公司内部的新开发流程与框架。
+        - 擅长的芯片平台包括珠海杰理以及中科蓝讯，主要开发集中在JL710N,709N,701N等主流芯片，以及AB5656C等芯片。
+        - 在AC710N的SDK上构建新的开发流程与框架，使得项目开发效率提升50%以上，在新框架上项目总量产数达30万台。
 
 projects:
-  title: 项目经验
+  title: 项目经历
   intro: >
-    这里列出了一些个人/开源方向的项目（非工作项目）
+    量产耳机的功能与形态
   assignments:
-    - title: LightPaper - 极简Markdown知识库
-      link: https://github.com/zhangwei/lightpaper
-      tagline: Electron + React + Monaco + IndexedDB 本地优先的离线知识管理工具
-    - title: Zustand + Immer 最佳实践指南
-      link: https://zustand-guide.zhangwei.dev
-      tagline: 目前中文社区最受欢迎的中文 Zustand 使用指南之一（3.2k+ star）
+    - title: 产品功能包括
+      link: 
+      tagline: 杰理之家APP、第三方定制APP、涂鸦APP、谷歌快连、Dongle、心率检测、入耳检测
+    - title: 产品形态包括
+      link: 
+      tagline: TWS普通 / 降噪耳机、挂脖式耳机、头戴式耳机、Dongle游戏耳机、LVGL彩屏仓耳机
 
 #certifications:
   #title: 技能
