@@ -1,0 +1,138 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+  position: left # position of the sidebar : left or right
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: True # set to False if you want education in main section instead of in sidebar
+
+  # Profile information
+  name: 王福星
+  tagline: 蓝牙音频固件工程师
+  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+  # Sidebar links
+  email: 319334854@qq.com
+  phone: 18474690403
+  # timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+  # citizenship:
+  website: https://hk-bruc1.github.io # Include the full website URL, including "http://" or "https://".
+  # linkedin:
+  # xing:
+  github: HK-bruc1
+  # telegram: # add your nickname without '@' sign
+  # gitlab:
+  # bitbucket:
+  # bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
+  # twitter: '@jekyllrb'
+  # stack-overflow: # Number/Username, e.g. 123456/alandoe
+  # codewars:
+  # goodreads: # Number-Username, e.g. 123456-alandoe
+  # mastodon: # Please include your full Mastodon link here.
+  # hackerrank: # Please provide your HackerRank username.
+  # leetcode: # Please provide your LeetCode username.
+  # pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
+
+  #languages:
+    #title:
+    #info:
+    #- idiom:
+      #level:
+
+    #- idiom:
+      #level:
+
+    #- idiom:
+      #level:
+
+  interests:
+    title: 兴趣爱好
+    info:
+    - item: 户外徒步与爬山
+      link:
+      
+    - item: 阅读各类有趣的书籍
+      link:
+
+    - item: 积极投身到AI的浪潮中
+      link:
+
+
+career-profile:
+  title: 技能
+  summary: |
+    - 熟悉珠海杰理以及中科蓝讯平台的各类耳机芯片
+    - 熟悉ARM Cortex-M3/M4系列架构,掌握STM32开发,熟练使用HAL库及寄存器开发
+    - 熟悉FreeRTOS的移植,裁剪和低功耗支持的原理,了解信号量、互斥量、队列的应用场景
+    - 熟悉ESP32平台的开发流程与应用,熟练使用zephyr操作系统进行应用开发
+    - 熟悉常用通信协议:UART、RS232、RS485、I2C、SPI、CAN
+    - 熟悉常用外设:定时器、PWM、ADC、看门狗的原理以及应用场景
+    - 熟练使用Keil5、VSCode、Source Insight、STM32CubeMX、Git版本控制工具
+    - 熟练使用示波器以及逻辑分析仪进行调试,可以使用烙铁进行基础的焊接
+    - 熟练查阅芯片数据手册、参考手册及相关文档,了解数字电路和模拟电路基础知识
+    - 熟练使用Vibe Coding进行AI编程快速验证方案原型
+
+education:
+  title: 教育经历
+  info:
+  - degree: 数据科学与大数据技术 本科
+    university: 湖南信息学院
+    time: 2020 - 2024
+    details:
+
+  #- degree:
+    #university:
+    #time:
+    #details:
+
+experiences:
+  title: 工作经历
+  info:
+  - role: 深圳鼎合丰科技有限公司
+    time: 2024.6 - 至今
+    company: 蓝牙耳机固件开发工程师
+    details: |
+        - 主要负责各类蓝牙耳机的固件开发工作。
+        - 深度参与构建公司内部的新开发流程与框架。
+        - 擅长的芯片平台包括珠海杰理以及中科蓝讯,主要开发集中在JL710N,709N,701N,700N,697N以及AB5656C,5756C等主流芯片。
+        - 在AC710N的SDK上构建新的开发流程与框架,使得项目开发效率与SDK代码复用率提升50%以上,在新框架上项目总量产数达50万台。
+
+projects:
+  title: 项目经历
+  intro: >
+    量产耳机的功能与形态
+  assignments:
+    - title: 产品功能包括
+      link: 
+      tagline: 杰理之家APP、第三方定制APP、涂鸦APP、谷歌快连、Dongle、心率检测、入耳检测
+    - title: 产品形态包括
+      link: 
+      tagline: TWS普通 / 降噪耳机、挂脖式耳机、头戴式耳机、Dongle游戏耳机、LVGL彩屏仓耳机
+
+#certifications:
+  #title: 技能
+  #list:
+  #- name:
+    #start:
+    #end:
+    #organization:
+    #credentialid:
+    #credentialurl:
+    #credentialname: C语言
+    #details: 内存布局
+
+skills:
+  title:
+  toolset:
+    - name: FreeRTOS / RT-theard 操作系统
+      level: 50%
+    - name: zephyr操作系统
+      level: 70%
+    - name: c语言
+      level: 80%
+    - name: Vibe Coding
+      level: 90%
+
+footer: >
+  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
